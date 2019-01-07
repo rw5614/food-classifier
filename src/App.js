@@ -74,7 +74,7 @@ class App extends Component {
     const model = new window.KerasJS.Model({
       filepaths: {
         model: 'model.json' ,
-        weights: 'https://s3.amazonaws.com/stratospark/food-101/model4b.10-0.68_weights.buf',
+        weights: 'model4b.10-0.68_weights.buf',
         metadata: 'model4b.10-0.68_metadata.json'
       },
       gpu: this.state.hasWebgl,
